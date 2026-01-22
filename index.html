@@ -69,7 +69,6 @@ body {
   border-radius: 6px;
   box-shadow: 0 0 20px rgba(0,0,0,0.6);
 }
-
 </style>
 </head>
 
@@ -179,8 +178,11 @@ function runSearch(lat, lng) {
   );
 
   nearby.forEach(i => {
-    const m = L.marker([i.lat, i.lng])
-      .bindPopup(`<img src="${i.thumb}" width="150">`);
+    const popupImg =
+      `<img src="${i.thumb}" width="150" style="cursor:pointer"
+        onclick="openLightbox('${i.image}')">`;
+
+    const m = L.marker([i.lat, i.lng]).bindPopup(popupImg);
     m.imageData = i;
     markers.addLayer(m);
   });
@@ -203,14 +205,19 @@ function showResults(list) {
     d.className = "thumb";
     d.innerHTML = `<img src="${i.thumb}" loading="lazy">`;
 
-    d.onmouseenter = () => {
+    // CLICK instead of mouseover
+    d.onclick = () => {
       highlightLayer.clearLayers();
-      L.circleMarker([i.lat, i.lng], {
-        radius: 8, color: "red", fillOpacity: 0.8
-      }).addTo(highlightLayer);
-    };
 
-    d.onclick = () => openLightbox(i.image);
+      L.circleMarker([i.lat, i.lng], {
+        radius: 8,
+        color: "red",
+        fillOpacity: 0.8
+      }).addTo(highlightLayer);
+
+      // Center map on image location at zoom 16
+      map.setView([i.lat, i.lng], 16);
+    };
 
     res.appendChild(d);
   });
@@ -231,7 +238,6 @@ slider.oninput = () => {
   if (currentCenter)
     runSearch(currentCenter[0], currentCenter[1]);
 };
-
 </script>
 
 <!-- Lightbox -->
@@ -241,5 +247,3 @@ slider.oninput = () => {
 
 </body>
 </html>
-
-
