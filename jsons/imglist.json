@@ -326,8 +326,8 @@
   {
     "id": "IMG_037",
     "name": "family_wallpaper.jpg",
-    "image": "/images/family_wallpaper.jpg",
-    "thumb": "/thumbs/family_wallpaper.jpg",
+    "image": "images/family_wallpaper.jpg",
+    "thumb": "thumbs/family_wallpaper.jpg",
     "lat": 26.172925,
     "lng": 91.770833,
     "description": "Family and Friends"
@@ -335,8 +335,8 @@
   {
     "id": "IMG_038",
     "name": "pexels-eberhardgross-1287075.jpg",
-    "image": "/images/pexels-eberhardgross-1287075.jpg",
-    "thumb": "/thumbs/pexels-eberhardgross-1287075.jpg",
+    "image": "images/pexels-eberhardgross-1287075.jpg",
+    "thumb": "thumbs/pexels-eberhardgross-1287075.jpg",
     "lat": 26.812428,
     "lng": 91.531083,
     "description": "Cloud capped peaks - Indo-Bhutan Border"
@@ -344,8 +344,8 @@
   {
     "id": "IMG_039",
     "name": "pexels-valeriiamiller-2825749.jpg",
-    "image": "/images/pexels-valeriiamiller-2825749.jpg",
-    "thumb": "/thumbs/pexels-valeriiamiller-2825749.jpg",
+    "image": "images/pexels-valeriiamiller-2825749.jpg",
+    "thumb": "thumbs/pexels-valeriiamiller-2825749.jpg",
     "lat": 26.677143,
     "lng": 94.266676,
     "description": "Cherry Blossom - Jorhat"
@@ -353,8 +353,8 @@
   {
     "id": "IMG_040",
     "name": "ISL_2018_Guwahati_01.jpg",
-    "image": "/images/ISL_2018_Guwahati_01.jpg",
-    "thumb": "/thumbs/ISL_2018_Guwahati_01.jpg",
+    "image": "images/ISL_2018_Guwahati_01.jpg",
+    "thumb": "thumbs/ISL_2018_Guwahati_01.jpg",
     "lat": 26.145172,
     "lng": 91.736434,
     "description": "ISL Match - Barsapara Stadium"
@@ -362,8 +362,8 @@
   {
     "id": "IMG_041",
     "name": "rumtek_gangtok_01.jpg",
-    "image": "/images/rumtek_gangtok_01.jpg",
-    "thumb": "/thumbs/rumtek_gangtok_01.jpg",
+    "image": "images/rumtek_gangtok_01.jpg",
+    "thumb": "thumbs/rumtek_gangtok_01.jpg",
     "lat": 27.28855,
     "lng": 88.561835,
     "description": "Dharma Chakra Centre - Rumtek, Gangtok"
@@ -371,8 +371,8 @@
   {
     "id": "IMG_042",
     "name": "IMG_20221204_111958.jpg",
-    "image": "/images/IMG_20221204_111958.jpg",
-    "thumb": "/thumbs/IMG_20221204_111958.jpg",
+    "image": "images/IMG_20221204_111958.jpg",
+    "thumb": "thumbs/IMG_20221204_111958.jpg",
     "lat": 24.801335,
     "lng": 92.781603,
     "description": "Mahadeb Mandir - Chandrapur, Silchar"
@@ -380,8 +380,8 @@
   {
     "id": "IMG_043",
     "name": "IMG_20221204_093312.jpg",
-    "image": "/images/IMG_20221204_093312.jpg",
-    "thumb": "/thumbs/IMG_20221204_093312.jpg",
+    "image": "images/IMG_20221204_093312.jpg",
+    "thumb": "thumbs/IMG_20221204_093312.jpg",
     "lat": 24.800093,
     "lng": 92.797674,
     "description": "Ashim Rajkumar - Link Road, Silchar"
@@ -389,8 +389,8 @@
   {
     "id": "IMG_044",
     "name": "IMG_20221203_085658.jpg",
-    "image": "/images/IMG_20221203_085658.jpg",
-    "thumb": "/thumbs/IMG_20221203_085658.jpg",
+    "image": "images/IMG_20221203_085658.jpg",
+    "thumb": "thumbs/IMG_20221203_085658.jpg",
     "lat": 24.655403,
     "lng": 92.858625,
     "description": "Ancestral Home - Narsingpur"
@@ -398,8 +398,8 @@
   {
     "id": "IMG_045",
     "name": "Gangtok 2018 - 10.jpg",
-    "image": "/images/Gangtok 2018 - 10.jpg",
-    "thumb": "/thumbs/Gangtok 2018 - 10.jpg",
+    "image": "images/Gangtok 2018 - 10.jpg",
+    "thumb": "thumbs/Gangtok 2018 - 10.jpg",
     "lat": 26.903692,
     "lng": 88.472048,
     "description": "Sevok Bridge"
