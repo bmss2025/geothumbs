@@ -2,16 +2,16 @@
   {
     "id": "IMG_001",
     "name": "IMG_20221205_153108.jpg",
-    "image": "https://bmss2025.github.io/geothumbs/images/IMG_20221205_153108.jpg",
-    "thumb": "https://bmss2025.github.io/geothumbs/thumbs/IMG_20221205_153108.jpg",
+    "image": "/images/IMG_20221205_153108.jpg",
+    "thumb": "/thumbs/IMG_20221205_153108.jpg",
     "lat": 24.935751,
     "lng": 92.930583
   },
   {
     "id": "IMG_002",
     "name": "IMG_20221205_152945.jpg",
-    "image": "https://bmss2025.github.io/geothumbs/images/IMG_20221205_152945.jpg",
-    "thumb": "https://bmss2025.github.io/geothumbs/thumbs/IMG_20221205_152945.jpg",
+    "image": "/geothumbs/images/IMG_20221205_152945.jpg",
+    "thumb": "/thumbs/IMG_20221205_152945.jpg",
     "lat": 24.933718,
     "lng": 92.930598
   },
