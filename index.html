@@ -138,7 +138,7 @@ L.Control.geocoder({
 .addTo(map);
 
 // --- LOAD DATA ---
-fetch("images.json")
+fetch("/jsons/imglist.json")
   .then(r => r.json())
   .then(data => images = data);
 
@@ -241,3 +241,4 @@ slider.oninput = () => {
 
 </body>
 </html>
+
